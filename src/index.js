@@ -1,2 +1,0 @@
-//ola
-console.log('boralave')
