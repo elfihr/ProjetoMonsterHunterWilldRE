@@ -1,0 +1,25 @@
+TXT oara nao esquecer
+O conjunto vem sem o module faça a instalação e ajuste caso falte alguma dependencia
+=====CONSOLE=====
+//caso ja tenha package.json pule essa etapa
+1.>>Inicio package.json
+npm init -y
+
+2.>>Inico Babel+webpack
+npm i --save-dev @babel/preset-env @babel/core @babel/cli babel-loader webpack webpack-cli regenerator-runtime core-js@2
+Esse comando cria o node_modules
+nota: verifique na package.jasonse criou todas as dependencias.A falta de uma delas pode ocasionar problemas futuros
+
+====Pastas====
+//Rode sempre esse comando para instalar as pastas do node_modules
+3.>>Criado .gitignore com nome da pasta nodes
+permite resintalar apenas com console "npm i"
+
+====webpack.config.js====
+4.>> ajustado module
+mode: 'development', >> mode: 'production',
+
+====Dependencias fora devDepdenvia====
+apague as depencias e execute no console sem --save-dev
+ex: nmp i core-js
+
