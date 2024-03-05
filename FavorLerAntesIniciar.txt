@@ -80,3 +80,7 @@ mode: 'development', >> mode: 'production',
 ====Console====
 14.Rodar comandos dep css
 npm i style-loader css-loader
+
+===ATUALIZARMODIFICAÇÔES===
+Especial. Cada vez que alguma coisa no css ou js for modificada, rodar comando:
+npm run dev (dev sendo o nome que colocamos)
