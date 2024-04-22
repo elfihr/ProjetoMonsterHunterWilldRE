@@ -1,25 +1,20 @@
 {
-  "name": "modelpack",
+  "name": "remonsterhunterwilds",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -w"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.6.4",
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "babel-loader": "^8.0.6",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
+    "start": "server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
-    "core-js": "^3.3.2",
-    "css-loader": "^3.2.0",
-    "regenerator-runtime": "^0.13.3",
-    "style-loader": "^1.0.0"
+    "axios": "^1.6.8",
+    "body-parse": "^0.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
