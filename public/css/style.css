@@ -194,7 +194,7 @@ main{
 .gallery-image{
     display: grid;
     grid-gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(500px,0.5fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px,0.5fr));
     grid-auto-rows: 200px;
     grid-auto-flow: dense;
     
@@ -468,80 +468,6 @@ footer {
     }
     .page01{
         padding: 100px 70px;
-    }
-}
-
-/*===resp mainLogo*/
-@media (max-width: 859px){
-    .mainLogo{
-        top: 130px;
-        left: 5px;
-        width: 650px;
-        
-    }
-}
-
-@media (max-width: 780px){
-    .mainLogo{
-        top: 130px;
-        left: 5px;
-        width: 650px;
-        
-    }
-}
-
-@media (max-width: 700px){
-    .mainLogo{
-        top: 140px;
-        width: 600px;
-        
-    }
-}
-
-@media (max-width: 610px){
-    .mainLogo{
-        left: -5px;
-        top: 150px;
-        width: 500px;
-        
-    }
-}
-
-@media (max-width: 610px){
-    .mainLogo{
-        width: 450px;
-        
-    }
-}
-
-@media (max-width: 550px){
-    .mainLogo{
-        left: -10px;
-
-        width: 420px;
-        
-    }
-}
-
-@media (max-width: 450px){
-    .mainLogo{
-        width: 400px;
-        
-    }
-}
-
-@media (max-width: 400px){
-    .mainLogo{
-        width: 370px;
-        left: -15px;
-        
-    }
-}
-
-@media (max-width: 400px){
-    .mainLogo{
-        width: 350px;
-        
     }
 }
 
